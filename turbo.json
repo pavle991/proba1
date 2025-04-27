@@ -1,0 +1,17 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "dev:web": {
+      "cache": false
+    },
+    "dev:mobile": {
+      "cache": false
+    },
+    "dev:contracts": {
+      "cache": false
+    }
+  }
+}

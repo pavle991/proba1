@@ -1,0 +1,19 @@
+{
+  "name": "@clipshares/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deployVide.ts --network mumbai"
+  },
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^3.0.0",
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
